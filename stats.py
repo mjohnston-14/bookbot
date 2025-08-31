@@ -20,9 +20,6 @@ def get_char_count(file):
             new = {"name": c,"num":1}
             list_of_counts.append(new)
 
-
-
-
     list_of_counts.sort(reverse=True, key=sort_on)
     return list_of_counts
 
